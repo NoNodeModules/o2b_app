@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "O2B",
+    "slug": "O2B",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/old_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.o2btechnologies.o2btech",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+          "NSCameraUsageDescription": "oco requires access to your camera to scan barcode given on your instance",
+      },
+    },
+    "android": {
+      "package": "com.o2btechnologies.o2btech",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
